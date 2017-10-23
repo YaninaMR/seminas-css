@@ -1,0 +1,53 @@
+/*navegadores diferentes propiedaes de navegador ,al setear hago que sea igual para
+todos*/
+
+body{
+  /*todos mis aarchivos sumen elal borde*/
+  box-sizing: border-box;
+  color: #303030;
+  font-family: ;
+  margin: 0;
+  padding: 0;
+}
+.text-uppercase{
+   text-transform: uppercase;
+}
+
+/*class="text-uppercase"*/
+.box-header{
+  display: inline-block;
+}
+
+.logo-header{
+  width: 200px;
+}
+/*inline-Block tamaño a cada uno ,pero inline una a lado de otro con la misma
+altura */
+li{
+  display: inline;
+  list-style:none;
+}
+li a{
+  color: inherit;
+  text-decoration: none;
+}
+header{
+  position: relative;
+}
+/*puede ser flex pero no se usa todavia*/
+nav{
+ /*float: right;*/
+ position: absolute;
+ right: 5%;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+section{
+  text-align: center;
+}
+div{
+  display: inline-block;
+  width: 33%;
+  
+}
